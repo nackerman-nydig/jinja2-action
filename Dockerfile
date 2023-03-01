@@ -1,4 +1,4 @@
-FROM python:3
+FROM artifactory.nydig-prod.cloud/dockerhub-virtual-prod/library/python:3
 
 WORKDIR /app
 ENTRYPOINT ["/app/entrypoint.py"]
